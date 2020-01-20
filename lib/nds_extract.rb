@@ -43,4 +43,4 @@ end
 
 puts directors_totals(directors_database)
 
-puts directors_totals(directors_database)[:name] 
+puts directors_totals(directors_database)[:name]
