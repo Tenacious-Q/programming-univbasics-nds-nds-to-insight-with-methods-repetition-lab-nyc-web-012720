@@ -46,8 +46,11 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   total = 0
-
-
+  index = 0
+    while index < source.length do
+      total += gross_for_director(index)
+      index += 1
+    end
 end
 
 puts directors_totals(directors_database)
