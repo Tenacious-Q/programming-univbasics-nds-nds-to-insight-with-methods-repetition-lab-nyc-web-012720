@@ -55,7 +55,7 @@ def total_gross(source)
 end
 
 
-=begin REFERENCES FOR EXPLORATION 
+=begin REFERENCES FOR EXPLORATION
 
 puts directors_totals(directors_database)
 #puts directors_database[0][:name]
