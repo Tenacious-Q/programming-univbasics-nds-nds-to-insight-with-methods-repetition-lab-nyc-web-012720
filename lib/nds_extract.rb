@@ -32,7 +32,7 @@ def list_of_directors(source)
     list << source[index][:name] #note that variable 'index' stays blue (an integer would be orange in my IDE)
     index += 1
   end
-  list # returns an array full of director name
+  list # returns an array full of director names
 end
 
 def total_gross(source)
@@ -59,3 +59,5 @@ puts directors_totals(directors_database)
 #puts directors_database[0][:name]
 
 puts list_of_directors(directors_database)
+
+puts gross_for_director(source)
