@@ -29,7 +29,7 @@ def list_of_directors(source)
   list = []
   index = 0
   while index < source.length do
-    list << source[index][:name] #note that variable 'index' stays blue (an integer would be orange in my IDE)  
+    list << source[index][:name] #note that variable 'index' stays blue (an integer would be orange in my IDE)
     index += 1
   end
   list
@@ -45,9 +45,9 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
-  total = 0 
-  
-  
+  total = 0
+
+
 end
 
 puts directors_totals(directors_database)
