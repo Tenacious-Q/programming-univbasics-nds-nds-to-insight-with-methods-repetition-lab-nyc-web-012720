@@ -61,3 +61,4 @@ puts directors_totals(directors_database)
 puts list_of_directors(directors_database)
 
 puts gross_for_director(directors_database[0]) # Spielberg's total
+puts gross_for_director(directors_database[1]) # 2nd total...
