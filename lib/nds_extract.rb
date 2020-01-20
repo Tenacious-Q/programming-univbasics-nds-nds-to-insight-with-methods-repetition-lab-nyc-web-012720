@@ -51,6 +51,7 @@ def total_gross(source)
       total += gross_for_director(index)
       index += 1
     end
+    total
 end
 
 puts directors_totals(directors_database)
