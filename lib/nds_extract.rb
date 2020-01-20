@@ -60,4 +60,4 @@ puts directors_totals(directors_database)
 
 puts list_of_directors(directors_database)
 
-puts gross_for_director(source)
+puts gross_for_director(directors_database)
