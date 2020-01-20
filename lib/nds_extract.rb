@@ -54,11 +54,13 @@ def total_gross(source)
     total
 end
 
+
+=begin REFERENCES FOR EXPLORATION 
+
 puts directors_totals(directors_database)
-
 #puts directors_database[0][:name]
-
 puts list_of_directors(directors_database)
-
 puts gross_for_director(directors_database[0]) # Spielberg's total
 puts gross_for_director(directors_database[1]) # 2nd total...
+
+=end 
