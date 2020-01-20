@@ -40,4 +40,4 @@ def total_gross(source)
   # return the total
 end
 
-
+directors_totals(directors_database)
